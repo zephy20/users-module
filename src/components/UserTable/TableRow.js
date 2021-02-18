@@ -28,7 +28,7 @@ export default function TableRow({
         <div className="flex alignItemscenter">
           <Link to={`/users?id=${id}`}>
             <Button variant="outline-primary" size="sm">
-              View
+              Open
             </Button>
           </Link>
           <Button

@@ -16,3 +16,13 @@ export const getUsers = () => {
     );
   };
 };
+
+export const sortUsers = payload => ({
+  type: SORT_USERS,
+  payload
+});
+
+export const deleteUser = payload => ({
+  type: DELETE_USER,
+  payload
+});

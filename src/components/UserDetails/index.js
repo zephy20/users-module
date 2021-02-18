@@ -1,11 +1,18 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./styles/index.scss";
 
 export default function UserDetailsWrapper({ user }) {
   const { name, email, username, address, phone, website, company } = user;
   return (
     <div className="userDetailsContainer">
+      <div className="header">
+        <h4>User Details</h4>
+        <Link to={`/`}>
+          <Button variant="outline-primary">Go back</Button>
+        </Link>
+      </div>
       <Card className="leftAligned">
         <Card.Body>
           <Card.Title>Name</Card.Title>

@@ -1,6 +1,7 @@
 .userDetailsContainer {
   width: 800px;
-  height: 600px;
+  min-height: 600px;
+  padding: 20px 0;
 }
 
 .textContainer {
@@ -13,4 +14,10 @@
 
 .topSpacing {
   margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
