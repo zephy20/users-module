@@ -1,6 +1,6 @@
 
 ## Stack used:
-React, Redux, Thunks, Bootstrap
+React, Redux, Thunks, Bootstrap,,,,,
 
 
 ## Steps to run this:
